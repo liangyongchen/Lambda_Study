@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="howe.helloandroidstudio.MainActivity">
+
+    <TextView
+        android:id="@+id/lblTitle"
+        android:text="ReScan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@+id/llTools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lblTitle"
+        >
+        <Button
+            android:id="@+id/btnInnerSD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Inner SD"
+            />
+        <Button
+            android:id="@+id/btnExtSD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ext SD"
+            />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/txtReScan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/llTools"
+        />
+
+    <Button
+        android:id="@+id/btnRescan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtReScan"
+        android:text="ReScan"
+        />
+</RelativeLayout>

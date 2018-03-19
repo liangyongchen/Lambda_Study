@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<Button
+    android:id="@+id/btnCopyData2SD"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Copy Data to SD"
+    />
+
+    <Button
+        android:id="@+id/btnCopySD2Data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Copy SD to Data"
+        />
+
+    <Button
+        android:id="@+id/btnCreateData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create DB file to data"
+        />
+
+    <Button
+        android:id="@+id/btnDeleteSD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete SD"
+        />
+
+    <Button
+        android:id="@+id/btnDeleteData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete Data"
+        />
+
+</LinearLayout>
